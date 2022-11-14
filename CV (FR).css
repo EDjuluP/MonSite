@@ -1,0 +1,102 @@
+body{
+    background-color: #f8f7f4;
+}
+
+
+.pageCV{
+    width: 780px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium Cond', 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+}
+
+/* En-tête */
+    .En-tête{
+        width : 780px;
+        height : 150px;
+        background-color: rgb(0, 27, 48);
+        margin: 0px;
+        text-align: center;
+        }
+
+    #NPS{
+    padding-top: 33px;
+    line-height: 12px;
+    }
+
+    #MonBlaze{
+    font-size: 23px;
+    color: #d6d3b9;
+    }
+
+    #MonStatut{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    }
+/* Fin En-tête */
+
+
+
+/* Partie Gauche */
+    .PartieGauche{
+    float: left;
+    width: 270px;
+    }
+
+
+    .SectionGauche{
+    margin-bottom: 40px;
+    text-align: justify;
+    }
+
+    
+    .sous-section-gauche{
+    line-height: 23px;
+    }
+/* Fin Partie Gauche */
+
+
+/* Partie Droite */
+    .PartieDroite{
+    margin-left: 320px;
+    }
+
+    .SectionDroite{
+    margin-bottom: 40px;
+    text-align: justify;
+    }
+
+        /* Expériences professionnelles */
+            .Entreprise{
+            font-weight: normal;
+            font-size: 16px;
+            }
+    
+            .Missions{
+            line-height: 23px;
+            }
+    
+            .Période{
+            color : #747474 ;
+            }
+        /* Fin Expériences Professionnelles */
+/* Fin Partie Droite */
+
+
+/* Caractéristiques des titres */
+    h2{
+    font-size: 20px;
+    color: #5a1515;
+    border-bottom: 2px solid #5a1515;
+    }
+
+    .Titre{
+    font-weight: bold;
+    font-size: 17px;
+    }
+/* Fin Caractéristiques des titres */
