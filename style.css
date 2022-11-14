@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Titre */
+
+h1{
+    font-family: 'Crimson Text', serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#TITRE{
+    font-family: 'Crimson Text', serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 50px;
+    opacity: 0;
+    animation: ani1 0.7s ease-out 2.5s forwards;
+}
+
+@keyframes ani1{
+    100%{
+        opacity: 1;
+    }
+}
+
+#légende{
+  color: white;
+  font-style: italic;
+  float: right;
+  padding-top: 245px;
+  margin-right: 10px;
+  font-family: 'Playfair Display', serif;
+}
+
+/* En-tête */
+
+#HeaderAccueil{
+    background-image: url("../img/Solvay1927(1).jpg");
+    padding-top: 282px;
+    padding-bottom: 282px;
+}
+
+header{
+    background-image: url("../img/Solvay1927(1).jpg");
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+
+/* Pied-de-page */
+
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color:rgba(209, 209, 209, 0.6) ;
+    border-top: 2px solid rgba(209, 209, 209, 0.686);
+    margin-bottom: 0px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #494949;
+}
+
+footer p{
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: 'Crimson Text', serif;
+}
+
+footer .social-media{
+    display: flex;
+}
+
+
+
+/* Menu */
+
+nav{
+    width: 100%;
+    background-color: rgba(17, 30, 87, 0.986);
+    justify-content: space-between;
+}
+
+nav ul{
+    margin : 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style-type: none;
+    float : left;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.Onglets{
+    display: table;
+    margin: 0 auto;
+}
+
+.menu-ind:hover{
+    border-top: 5px solid #689dff;
+    background-color:#689dff;
+}
+
+.menu-cv:hover{
+    border-top: 5px solid #689dff;
+    background-color:#689dff;
+}
+
+.menu-form:hover{
+    border-top: 5px solid #689dff;
+    background-color:#689dff;
+}
+
+.menu-prop:hover{
+    border-top: 5px solid #689dff;
+    background-color:#689dff;
+}
+
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+
+
+/* Accueil */
+
+.Articles{
+    margin: 10px 80px;
+    margin-top: 30px;
+}
+
+.Articles .article{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.Articles .article .left img{
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.Articles .article .right{
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+.Articles .article .right h2{
+    font-size: 25px;
+}
+
+.Articles .article .right h2:hover{
+    color: rgba(17, 30, 87, 0.986);
+}
+
+.Articles .article .right p.date{
+    color: #7f7e7e;
+}
+
+.Articles .article .right p.description{
+    color: #606060;
+}
+
+.Articles .article .right p.auteur{
+    color: #2b2b2b;
+    font-style: normal;
+}
+
+
+/* Articles */
+
+    h6{
+        text-align: center;
+        font-weight: bold;
+        color: #474747;
+    }
+
+    /* Article Alain Aspect */
+
+    h2 a{
+        color: #2b2b2b;
+    }
+
+    .left{
+        animation: transition 0.75s;
+    }
+
+    .Nobel{
+        animation: transition 2.5s;
+    }
+
+    @keyframes transition{
+        from{
+            opacity: 0;
+            transform: rotateX(-10deg);
+        } 
+
+        to{
+            opacity: 1;
+            transform: rotateX(0);
+        }
+    }
+    
+    /* Article Définition */
+
+
+   .defPhysiqueQuantique{
+        margin-top: 100px;
+   }
+
+    .pArticle{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+
+/* Rubrique à propos */
+
+
+.PrésentationduBlog{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#NomRubrique{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#MonNom{
+    font-size: 17px;
+    text-align: right;
+    margin-top: 70px;
+}
+
+
+/*Formulaire*/
+
+#Contact{
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+form{
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    padding: 10px ;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form .corps-formulaire .Catégorie{
+    margin-bottom: 20px;
+}
+
+form .corps-formulaire .Catégorie input{
+    margin-top: 10px;
+    padding: 8px 5px 8px 5px;
+    border: 1px solid #b1b1b1;
+    outline-color:#0c2b63;
+    border-radius: 5px;
+}
+
+form .corps-formulaire .Catégorie textarea{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #b1b1b1;
+    outline-color:#0c2b63;
+    border-radius: 5px;
+    resize: none;
+    width : 300px;
+    height: 150px;
+}
+
+form .pied-formulaire button{
+    margin-top: 10px;
+    background-color: #0c2b63;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+form .pied-formulaire button:hover{
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 848px) {
+    .pageCV{
+        width: 20%;
+    } 
+}
