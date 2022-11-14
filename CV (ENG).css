@@ -1,0 +1,88 @@
+body{
+    background-color: #f8f7f4;
+}
+
+
+.Page{
+    width: 780px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium Cond', 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+
+}
+
+.Header{
+        width : 780px;
+        height : 150px;
+        background-color: grey;
+        margin: 0px;
+        text-align: center;
+    }
+
+#SFS{
+    padding-top: 33px;
+    line-height: 12px;
+}
+
+.LeftPart{
+    float: left;
+    width: 270px;
+}
+
+.RightPart{
+    margin-left: 320px;
+}
+
+.LeftSection{
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.RightSection{
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+h2{
+    font-size: 20px;
+    color: #5a1515;
+    border-bottom: 2px solid #5a1515;
+}
+
+.Title{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.Company{
+    font-weight: normal;
+    font-size: 16px;
+
+}
+
+#MyName{
+    font-size: 23px;
+    color: #d6d3b9;
+}
+
+#MyStatus{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.Tasks{
+    line-height: 23px;
+}
+
+.left-sub-section{
+    line-height: 23px;
+}
+
+.Period{
+    color : #747474 ;
+}
