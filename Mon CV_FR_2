@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CV d'Emmanuel Djulu Penghe (FR)</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CV (FR).css'>
+</head>
+
+
+<body>
+
+    <!-- en-tête -->
+        <header>
+            <a href="index.html"><h1 id="titreRetourCV">Un peu de physique quantique</h1></a>
+        </header>
+    
+        
+    <!-- contenu -->
+        <div class="pageCV">
+
+
+
+
+
+            <div class="En-tête">
+                <div id="NPS">
+                    <p id="MonBlaze"><b>Emmanuel DJULU PENGHE</b></p>
+                    <p id="MonStatut">Etudiant en informatique</p>
+                </div>
+            </div>
+
+            <div class="PartieGauche">
+                <div class="SectionGauche">
+                    <h2>INFORMATIONS PERSONNELLES</h2>
+                    <div class="MesInfos">
+                        <p>25 ans</p>
+                        <p>+33 6 09 80 39 78</p>
+                        <p>emmanuel.djulupenghe@gmail.com</p>
+                        <p>Amiens, France</p>
+                        <p>linkedin.com/emmanuel-djulu-penghe</p>
+                        <p>Permis B</p>
+                    </div>
+                </div>
+                <div class="SectionGauche">
+                    <h2>LANGUES</h2>
+                    <div class="sous-section-gauche">
+                        <ul>
+                            <li>Anglais : Niveau A2</li>
+                            <li>Lingala : Bonnes connaissances</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="SectionGauche">
+                    <h2>COMPÉTENCES</h2>
+                    <div class="sous-section-gauche">
+                        <ul>
+                            <li>Minutie</li>
+                            <li>Détermination</li>
+                            <li>Travail d'équipe</li>
+                            <li>Maîtrise de soi</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="SectionGauche">
+                    <h2>LOGICIELS</h2>
+                    <div class="sous-section-gauche">
+                        <ul>
+                            <li>LaTex</li>
+                            <li>Adobe After Effects</li>
+                            <li>Adobe Premiere Pro</li>
+                            <li>Microsoft Word, PowerPoint & Excel</li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="SectionGauche">
+                    <h2>CENTRES D'INTÉRÊT</h2>
+                    <div class="sous-section-gauche">
+                        <ul>
+                            <li>Lecture (articles scientifiques, bandes dessinées, romans policiers) </li>
+                            <li>Dessin</li>
+                            <li>Pratique de la guitare basse</li>
+                            <li>Documentaires (historiques, scientifiques, sportifs)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="PartieDroite">
+                <div class="SectionDroite">
+                    <h2>PROFIL</h2>
+                    <div class="MaPrésentation">
+                        <p>Passionné par les mathématiques et l'informatique, j'ai décidé de poursuivre mes études dans cette voie, en intégrant un BTS Systèmes Numériques option Informatique & Réseaux.</p>
+                    </div>
+                </div>
+                <div class="SectionDroite">
+                    <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
+                    <div class="sous-section-droite">
+                        <p class="Titre">Ouvrier agricole</p>
+                        <p class="Entreprise">GAEC Terres Bio, Bergicourt & La Cueillette, Saint-Gratien <span class="Période">| Étés 2021, 2022</span></p>
+                        <ul class="Missions">
+                            <li>Désherbage de plans de betteraves et de cornichons</li>
+                            <li>Récolte de cornichons</li>
+                            <li>Plantage de légumes</li>
+                        </ul>
+
+                        <p class="Titre">Agent de quai</p>
+                        <p class="Entreprise">GEODIS Calberson, Amiens <span class="Période">| Étés 2018, 2020</span></p>
+                        <ul class="Missions">
+                            <li>Réception et expédition de colis</li>
+                        </ul>
+
+                        <p class="Titre">Déménageur</p>
+                        <p class="Entreprise">Start People, Amiens <span class="Période">| Été 2018</span></p>
+                        <ul class="Missions">
+                            <li>Déchargement de camions de déménagement</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="SectionDroite">
+                    <h2>FORMATION</h2>
+                    <div class="sous-section-droite">
+                        <p class="Titre">Brevet Technicien Supérieur (BTS) : Systèmes Numériques option Informatique & Réseaux</p>
+                        <p class="Etablissement">Lycée La Providence, Amiens <span class="Période">| 2022-2024</span></p>
+
+                        <p class="Titre">Licence Mathématiques</p>
+                        <p class="Etablissement">Université de Picardie Jules Verne, Amiens  <span class="Période">| 2018-2022</span></p>
+
+                        <p class="Titre">Classe préparatoire Adapation Technicien Supérieur (ATS) : Ingénierie industrielle</p>
+                        <p class="Etablissement">Lycée Marie Curie, Nogent-sur-Oise  <span class="Période">| 2017-2018</span></p>
+
+                        <p class="Titre">Diplôme Universitaire Technologique (DUT) : Génie Mécanique & Productique</p>
+                        <p class="Etablissement">Université de Picardie Jules Verne, Amiens  <span class="Période">| 2015-2017</span></p>
+                    </div>
+            </div>
+
+        </div>
+
+
+
+</body>
+
+
+</html>
